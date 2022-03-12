@@ -1,11 +1,26 @@
 import React from "react";
-import "./style.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import About from "../components/About";
+import SignUp from "../components/SignUp";
+import Articles from "../components/Articles";
+import Article from "../components/Article";
+import Categories from "../components/Categories";
+import Author from "../components/Author";
+import Profile from "../components/Profile";
 
-export default function App() {
+import "./App.css";
+
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Header />
+      <main>
+        {/* Add Routes here! */}
+      </main>
+      <Footer />
     </div>
   );
 }
+
+export default App;
